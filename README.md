@@ -76,7 +76,7 @@ conda create -n openmc-env python=3.12
 conda activate openmc-env
 
 # Install dependencies
-pip install -r requirements.txt
+conda install -c conda-forge openmc numpy pandas pillow tqdm
 
 # Run Tool
 python3 main.py
