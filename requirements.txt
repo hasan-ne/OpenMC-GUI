@@ -1,0 +1,12 @@
+# Numerical & Data Handling
+numpy>=1.25.0
+pandas>=2.1.0
+
+# OpenMC for Monte Carlo simulations
+openmc>=1.0.0
+
+# GUI and image handling
+Pillow>=10.0.0
+
+# Optional: progress bars for long-running tasks
+tqdm>=4.65.0
