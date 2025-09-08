@@ -28,37 +28,37 @@ and run simulations directly from the interface.
 
 ## ✨ Features
 
-### Material Builder
+#### 1.Material Builder
 - Create  materials with atomic densities and isotopic compositions.
 - Can export xml file directly for openmc.
 - Also can generate a python file named **materials.py**. Using this user can easily change the parameters in future if he wants.
 
-### Geometry Builder
+#### 2.Geometry Builder
 - Define cells, surfaces, and spatial relationships.  
 
-### Universe Builder
+#### 3.Universe Builder
 - Combine cells into universes for complex reactor models.  
 
-### Lattice Builder
+#### 4.Lattice Builder
 - Build structured or repeating lattice geometries effortlessly.  
 
-### Final Geometry Export
+#### 5.Final Geometry Export
 - Export **geometry.xml** ready for OpenMC.
 - Will also export a python file for future use for the user.
 
-### Simulation Settings
+#### 6.Simulation Settings
 - Configure particles, batches, source distributions, and energy spectra.  
 
-### Tallies Builder
+#### 7.Tallies Builder
 - Add tally definitions for neutron flux, reaction rates, and more.  
 
-### Run OpenMC
+#### 8.Run OpenMC
 - Execute simulations **directly from the GUI**.  
 
-### Energy Spectrum Support
+#### 9.Energy Spectrum Support
 - Monoenergetic, Watt, Maxwell, Tabular, or OpenMC default spectrum.
 
-### XML and Python file
+#### 10.XML and Python file
 - This tool can generate xml files for materials, geometry, settings and tallies. Which an user can use directly to run openmc.
 - It also generates python files. (eg: materils.py, geometry.py, settings.py etc ). Using these python files user can change the parameters in the code and export xml files in future for further analysis.
 
@@ -82,13 +82,14 @@ pip install -r requirements.txt
 python3 main.py
 
 ```
-
+---
 ### Requirements:
   - openmc
   - numpy
   - tkinter (usually comes with Python)
   - Ensure OpenMC is installed and configured: [OpenMC Installation Guide](https://docs.openmc.org/en/stable/quickinstall.html)
 
+---
 
 
 ### Workflow:
@@ -100,7 +101,7 @@ python3 main.py
   5. Configure simulation settings (particles, batches, source, energy).
   6. Optionally define tallies.
   7. Run OpenMC simulation via Run OpenMC.
-
+---
 
 
 
@@ -111,7 +112,7 @@ python3 main.py
   - Remember all the xml, python and h5 files will be genereated in output directory
 
 Energy distributions supported: OpenMC Default, Monoenergetic, Watt Spectrum, Maxwell Spectrum, Tabular.
-
+---
 ### File Structure
 
 ```
@@ -135,7 +136,7 @@ openmc-gui-builder/
 
 ```
 
-
+---
 ### 🤝 Contributing
 We welcome contributions!
 
@@ -146,7 +147,7 @@ We welcome contributions!
   - Open a Pull Request.
 
 <br><br>
-
+---
 ### 📜 License
 
 MIT License © 2025 Mahmudul Hasan
