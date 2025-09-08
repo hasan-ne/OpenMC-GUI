@@ -32,7 +32,7 @@ def save_final_geometry(selected_universe):
         "import openmc\nfrom geometry import *  # import all previously defined universes/cells\n",
         "\n",
         f"geometry = openmc.Geometry(universes['{selected_universe}'])\n",
-         "geometry.export_to_xml('output/geometry.xml')\n",
+         "geometry.export_to_xml('geometry.xml')\n",
          f"print('Final geometry created with universe: {selected_universe}')\n"
     ]
 
