@@ -131,7 +131,6 @@ openmc-gui-builder/
 │   └── run_openmc_builder.py
 ├── output/                  # Generated XML & simulation files
 ├── LICENSE
-├── requirements.txt
 └── README.md
 
 ```
