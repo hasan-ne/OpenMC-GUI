@@ -89,8 +89,11 @@ python3 main.py
   - tkinter (usually comes with Python)
   - Ensure OpenMC is installed and configured: [OpenMC Installation Guide](https://docs.openmc.org/en/stable/quickinstall.html)
 
----
+-----
+### Installation Video
+[▶ Watch on YouTube](https://youtu.be/jwWjvitz8Ng)
 
+------
 
 ### Workflow:
 
