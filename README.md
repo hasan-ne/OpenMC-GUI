@@ -106,9 +106,10 @@ python3 main.py
   7. Run OpenMC simulation via Run OpenMC.
 ------
 
-### Desiign PINCELL usign  OpenMC-GUI tool:
+### Design PINCELL usign  OpenMC-GUI tool:
 [▶ Watch on YouTube](https://youtu.be/scdlaWJdpd8)
 
+-----------------
 
 
 ### Outputs (saved in output/):
