@@ -1,0 +1,22 @@
+[
+  {
+    "name": "fuel",
+    "region": "-fuel_outer_radius",
+    "material": "uo2"
+  },
+  {
+    "name": "clad",
+    "region": "+clad_inner_radius & -clad_outer_radius",
+    "material": "zirconium"
+  },
+  {
+    "name": "gap",
+    "region": "+fuel_outer_radius & - clad_inner_radius",
+    "material": "uo2"
+  },
+  {
+    "name": "water",
+    "region": "+left & -right & +down & -up",
+    "material": "water"
+  }
+]

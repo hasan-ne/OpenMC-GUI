@@ -1,0 +1,11 @@
+{
+  "root_univere": {
+    "id": null,
+    "cells": [
+      "fuel",
+      "clad",
+      "gap",
+      "water"
+    ]
+  }
+}

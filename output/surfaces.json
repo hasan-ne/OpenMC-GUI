@@ -1,0 +1,58 @@
+{
+  "fuel_outer_radius": {
+    "type": "ZCylinder",
+    "id": null,
+    "params": [
+      "0.39"
+    ],
+    "boundary_type": null
+  },
+  "clad_inner_radius": {
+    "type": "ZCylinder",
+    "id": null,
+    "params": [
+      "0.40"
+    ],
+    "boundary_type": null
+  },
+  "clad_outer_radius": {
+    "type": "ZCylinder",
+    "id": null,
+    "params": [
+      "0.46"
+    ],
+    "boundary_type": null
+  },
+  "left": {
+    "type": "XPlane",
+    "id": null,
+    "params": [
+      "-0.63"
+    ],
+    "boundary_type": "reflective"
+  },
+  "right": {
+    "type": "XPlane",
+    "id": null,
+    "params": [
+      "0.63"
+    ],
+    "boundary_type": "reflective"
+  },
+  "down": {
+    "type": "YPlane",
+    "id": null,
+    "params": [
+      "-0.63"
+    ],
+    "boundary_type": "reflective"
+  },
+  "up": {
+    "type": "YPlane",
+    "id": null,
+    "params": [
+      "0.63"
+    ],
+    "boundary_type": "reflective"
+  }
+}
